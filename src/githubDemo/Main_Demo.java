@@ -12,5 +12,12 @@ package githubDemo;
 public class Main_Demo {
     public static void main(String[] args) {
         System.out.println("Hello, world");
+        
+        printname();
     }
+
+    private static void printname() {
+        System.out.println("Linus Torvald");
+}
+    
 }
